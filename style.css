@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+@font-face{
+    font-family: Montserrat;
+    src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 0px;
+}
+/*inicio*/
+#todo{
+    background: url(image/fondo.jpg);
+    height: 150vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#titulo{
+    position: absolute;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+    font-size: 8rem;
+    background-color: transparent;
+    border-color: black;
+    box-shadow: #fff;
+}
+
+#titulo, .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#slogan{
+    position: absolute;
+    text-align: center;
+    margin-top: 11%;
+    font-size: 1.5rem;
+    background-color: #076ac77d;
+    width: 100%;
+    color: #fff;
+}
+
+#slogan, .Montserrat{
+    font-family: "Montserrat, sans-serif";
+    font-weight: 200;
+    font-style: normal;
+}
+
+/*registro*/
+#registro{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    color: #fff; /* Color de texto para contraste */
+}
+#formularioRegistro {
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin: 0 auto 30px;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Cambiado a sombra blanca */
+    width: 70%;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 15%;
+  }
+
+  label{
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+
+  #inicio{
+    color: #fff;
+  }
+
+  #subtitulo{
+    color: #fff;
+  }
+
+  #oferta{
+    background-color: rgb(13, 134, 134);
+    position: absolute;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 100%;
+    color: #fff;
+  }
+
+  #oferta, .Montserrat{
+    font-family: "Montserrat, sans-serif";
+    font-weight: 200;
+    font-style: normal;
+}
+
+#logo{
+    width: 150px;
+    height: 100px;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 45%;
+}
